@@ -1,0 +1,58 @@
+body
+{
+    background: linear-gradient(45deg,#031d28,#06394e,#0b5674);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    height: 100vh;
+    width: 100%;
+}
+@keyframes color {
+    0%
+    {
+        background-position: 0% 50%;
+    }
+    50%
+    {
+        background-position: 100% 50%;
+    }
+    100%
+    {
+        background-position:0 50%;
+    }
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.box {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 5, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#id-textField
+{
+    margin-bottom: 20px;
+    border-radius: 25px;
+    
+}
+#password-Field
+{
+    margin-bottom:100px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+#subBTN
+{
+    margin-left: 100px;
+    border-radius: 25px;
+    color: #ffffff;
+    background-color: black;
+    font-family: League Spartan;
+}

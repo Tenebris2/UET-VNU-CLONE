@@ -1,0 +1,88 @@
+
+.header-color
+{
+    background-color: rgb(113, 113, 225);
+    width: auto;
+    margin:-8px;
+    height: 60px;
+}
+body
+{
+    background-image: url(images/anhnenchinh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:-8px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body
+{
+    background-color: white;
+    width: auto;
+    display: flex;
+    height: 630px;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    background-image: url(images/login.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width :1400px;
+    height :630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form
+{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 500px;
+    justify-content: flex-end;
+}
+#username-label
+{
+    font-size: 13pt;
+    color: black;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#password-label
+{
+    font-size: 13pt;
+    color: black;
+    font-weight: normal;
+    margin-left:37px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#usernameField
+{
+    border-radius: 30px;
+    width: 200px;
+}
+#passwordField
+{
+    border-radius: 30px;
+    margin-left: 3.5px;
+    width: 200px;
+}
+#login-button
+{
+    margin-top:20px;
+    margin-left:140px;
+    width: 120px;
+    border-radius: 25px;
+    font-size: larger;
+    background-color: aliceblue;
+}
+#rem-login
+{
+    margin-left:140px;
+}
+#lab-1
+{
+    margin-left:145px;
+    font-size: smaller;
+}
