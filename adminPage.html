@@ -5,23 +5,24 @@
         <link href="adminPageStyles.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200&display=swap" rel="stylesheet"> 
-        
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200&display=swap" rel="stylesheet">     
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     </head>
     <body>
         <div class = "container">
             <div class = "box">
-                <div id>
+                <div class="inner-box">
                     <form action="adminPage.php" method="post">
                         <label for = "stdID">Student ID: </label>
                         <input type="text" name="stdID" id="id-textField"><br>
                         <label for = "password">Password: </label>
                         <input type="password" name="password" id="password-Field">
-                        <br>
+                        <div class="g-recaptcha" data-sitekey="6LdscJInAAAAAJ1dC9nQGAz3VAMqiOUYwgiGFcsh"></div>
                         <input type="submit" name="submit" id="subBTN">
-                </form>
+                    </form>
                 </div>
-            </div>
+            </div>   
         </div>
     </body>
 </html>

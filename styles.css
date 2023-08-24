@@ -86,3 +86,8 @@ body
     margin-left:145px;
     font-size: smaller;
 }
+.g-recaptcha
+{
+    margin-top: 10px;
+    margin-left: 125px;
+}

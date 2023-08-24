@@ -1,0 +1,149 @@
+.big-label-container-1
+{
+    width: 80%;
+    height:550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.label-1
+{
+    width: 100%;
+    height: 10%;
+    border-radius: 10px;
+    color:white;
+    border: 1px solid black;
+
+}
+.label-2
+{
+    width: 100%;
+    height: 10%;
+    color:rgb(0, 0, 0);
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+}
+.certList
+{
+    height: 40%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(147, 194, 255);
+    display: flex;
+    justify-content: left;
+    align-items:center;
+}
+
+/* SPINNER */
+
+
+.spinner-1 ,.spinner-2
+{
+    height: 12%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.spinner-1
+{
+    background-color: rgb(223, 237, 255);
+}
+.spinner-2
+{
+    background-color: rgb(147, 194, 255);
+}
+
+.textbox-1, .textbox-2
+{
+    margin-left: 135px;
+}
+.inc-dec-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15px;
+    height: 100%;
+}
+.inc, .dec
+{
+    width: 15px;
+    height: 10px;
+    border-radius: 0;   
+}
+.inc
+{
+    border-top-right-radius: 5px;
+}
+.dec
+{
+    border-bottom-right-radius: 5px;
+}
+
+/* SPINNER */
+.reason
+{
+    height: 14%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(223, 237, 255);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.reason-textbox
+{
+    margin-left:212px;
+    width: 78%;
+    height:80%;
+}
+
+
+
+.certListRadioBoxes
+{
+    margin: 100px;
+    height: 100%;
+    width: fit-content;
+    font-size: smaller;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.save-button
+{
+    width: 60px;
+    height: 75px;
+    margin-left:3px;
+    text-align: center;
+    align-items: center;
+    color: black;   
+}
+.save-button :hover
+{
+    background-color: gainsboro;
+    transition: 0.3s;
+}
+.save-outline
+{
+    width: 50%;
+    height: 50%;
+}
+#menu-bar-1
+{
+    display: flex;
+    justify-content: left;
+}
+
